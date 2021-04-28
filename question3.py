@@ -1,6 +1,3 @@
-firstname = input("Enter first name: ")
-lastname = input("Enter last name: ")
+def concatName(firstname, lastname):
+    return firstname + " " + lastname
 
-fullname = firstname + " " + lastname
-
-print(fullname)
